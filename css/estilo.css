@@ -65,6 +65,9 @@ body {
 
 /* Columna derecha */
 .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 70%;
     padding: 20px;
     color: #fff;
@@ -115,11 +118,18 @@ a:hover {
 }
 
 .skills-container {
+    margin-top: auto;
+    display: flex;
+    flex-direction: columns;
+    align-items: center;
+    max-width: 100%;
+    overflow: hodden;
+
     background-color: #444; /* Fondo del recuadro */
     border: 2px solid #fff; /* Borde blanco */
     border-radius: 10px; /* Bordes redondeados */
     padding: 20px; /* Espaciado interno */
-    margin-top: 20px; /* Espacio encima del recuadro */
+    /*margin-top: 50px;  Espacio encima del recuadro */
     display: flex; /* Habilitar Flexbox */
     flex-direction: column; /* Alinear el contenido de arriba hacia abajo */
     align-items: center; /* Centrar horizontalmente */
