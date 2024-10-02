@@ -254,8 +254,12 @@ a:hover {
         font-weight: bold; /* Hacer el título en negrita */
     }
 
-    .amarillo, .reforzado, .normal{
+    .amarillo, .normal{
         padding-left: 5px;
+    }
+
+    .reforzado{
+        padding: 0;
     }
       
     
