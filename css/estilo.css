@@ -107,7 +107,7 @@ a:hover {
 
 .reforzado {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0 20px 0 20px; 
 }
 
@@ -193,13 +193,13 @@ a:hover {
         font-size: 16px;
     }
 
-    .right-column h2{
+    /*.right-column h2{
         font-size: 15px;
-    }
+    }*/
 
     .normal{
         padding: 0;
-        font-size: 15px;
+        font-size: 12px;
     }
     
     .reforzado {
@@ -208,9 +208,9 @@ a:hover {
         margin: 0,
     }
     
-    /*.right-column .amarillo{
-        font-size: 17px;
-    }*/
+    .right-column .amarillo{
+        font-size: 14px;
+    }
 
 
 
@@ -258,9 +258,9 @@ a:hover {
         font-weight: bold; /* Hacer el título en negrita */
     }
 
-    /*.amarillo, .reforzado, .normal{
+    .amarillo, .reforzado, .normal{
         padding-left: 5px;
-    }*/
+    }
       
     
 }
