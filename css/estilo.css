@@ -234,8 +234,8 @@ a:hover {
     
 
     .skill-icon {
-        width: 20px; /* Reducir el tamaño de los iconos en pantallas pequeñas */
-        height: 20px;
+        width: 15px; /* Reducir el tamaño de los iconos en pantallas pequeñas */
+        height: 15px;
     }
 
    .skills-title {
