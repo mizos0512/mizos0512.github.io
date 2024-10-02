@@ -234,12 +234,12 @@ a:hover {
     
 
     .skill-icon {
-        width: 15px; /* Reducir el tamaño de los iconos en pantallas pequeñas */
-        height: 15px;
+        width: 20px; /* Reducir el tamaño de los iconos en pantallas pequeñas */
+        height: 20px;
     }
 
    .skills-title {
-        font-size: 15px; /* Tamaño del título */
+        font-size: 18px; /* Tamaño del título */
         text-align: center; /* Centrar el texto */
         margin-bottom: 10px; /* Espacio debajo del título */
         color: #f1f5a5; /* Color del texto */
