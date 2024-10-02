@@ -146,7 +146,7 @@ a:hover {
 .skill-icon {
     display: inline-block; /* Permitir que los iconos estén en la misma línea */
     margin: 5px; /* Espacio alrededor de cada icono */
-    width: 45px; /* Ancho del icono */
+    width: 50px; /* Ancho del icono */
     height: 45px; /* Alto del icono */
     background-color: transparent; /* Fondo transparente */
     background-size: contain; /* Asegurarse de que se ajuste al tamaño del contenedor */
