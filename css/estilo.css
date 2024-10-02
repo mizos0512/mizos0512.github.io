@@ -231,7 +231,6 @@ a:hover {
         width: auto; /* Deja que el ancho se ajuste automáticamente */
         flex-wrap: nowrap; /* Impide que los íconos se envuelvan a la siguiente línea */
     }
-    
 
     .skill-icon {
         width: 45px; /* Reducir el tamaño de los iconos en pantallas pequeñas */
