@@ -244,6 +244,10 @@ a:hover {
         color: #f1f5a5; /* Color del texto */
         font-weight: bold; /* Hacer el título en negrita */
     }
+
+    .amarillo{
+        padding: auto;
+    }
       
     
 }
