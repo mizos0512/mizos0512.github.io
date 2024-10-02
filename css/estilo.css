@@ -89,10 +89,6 @@ ul {
     margin: 10px 20px 0 20px;
 }
 
-span {
-    font-size: 22px;
-    margin: 5px 20px 0 20px;
-}
 
 a {
     color: #00ccff; /* Color para enlaces */
@@ -208,7 +204,7 @@ a:hover {
         margin: 0,
     }
     
-    .right-column .amarillo{
+    .amarillo{
         font-size: 14px;
     }
 
