@@ -136,7 +136,7 @@ a:hover {
 }
 
 .skills-title {
-    font-size: 24px; /* Tamaño del título */
+    font-size: 20px; /* Tamaño del título */
     text-align: center; /* Centrar el texto */
     margin-bottom: 15px; /* Espacio debajo del título */
     color: #f1f5a5; /* Color del texto */
@@ -146,8 +146,8 @@ a:hover {
 .skill-icon {
     display: inline-block; /* Permitir que los iconos estén en la misma línea */
     margin: 5px; /* Espacio alrededor de cada icono */
-    width: 50px; /* Ancho del icono */
-    height: 50px; /* Alto del icono */
+    width: 30px; /* Ancho del icono */
+    height: 30px; /* Alto del icono */
     background-color: transparent; /* Fondo transparente */
     background-size: contain; /* Asegurarse de que se ajuste al tamaño del contenedor */
     background-repeat: no-repeat; /* No repetir la imagen */
@@ -234,8 +234,8 @@ a:hover {
     
 
     .skill-icon {
-        width: 20px; /* Reducir el tamaño de los iconos en pantallas pequeñas */
-        height: 20px;
+        width: 25px; /* Reducir el tamaño de los iconos en pantallas pequeñas */
+        height: 25px;
     }
 
    .skills-title {
