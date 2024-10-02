@@ -192,9 +192,14 @@ a:hover {
         font-size: 15px;
     }
     
-    .reforzado,
-    span {
+    .reforzado {
         font-size: 15px;
+        padding:0;
+        margin: 0,
+    }
+    
+    .reforzado span {
+        font-size: 14px;
         padding:0;
         margin: 0,
     }
@@ -202,6 +207,8 @@ a:hover {
     .right-column .amarillo{
         font-size: 18px;
     }
+
+
 
     a {
         color: #00ccff; /* Color para enlaces */
