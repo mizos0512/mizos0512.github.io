@@ -162,8 +162,8 @@ a:hover {
 
 .iconos{
     display: block;
-    margin: 0; /* Elimina el margen */
-    padding: 0; /* Asegura que no haya relleno */
+    margin: 0; 
+    padding: 0; 
     display: flex;
 }
 
