@@ -1,0 +1,184 @@
+/* Contenedor general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* Panel izquierdo (información de contacto, habilidades, foto) */
+.left-panel {
+    background-color: #2C3E50;
+    color: white;
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.left-panel img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Reglas específicas para la lista de contacto */
+.contact-info li:first-child::before {  
+    content: "Email: ";
+    color: #85C1E9; /* Azul suave para el texto 'Email' */
+    font-weight: bold;
+}
+
+.contact-info li:nth-child(2)::before {
+    content: "Teléfono:";
+    color: #85C1E9; /* Azul suave para el texto 'Teléfono' */
+    font-weight: bold;
+}
+
+.contact-info li:nth-child(3)::before {
+    content: "";
+    color: #85C1E9; /* Azul suave para el texto 'Portafolio' */
+    font-weight: bold;
+}
+
+.contact-info li:nth-child(4)::before {
+    content: "";
+    color: #85C1E9; /* Azul suave para el texto 'LinkedIn' */
+    font-weight: bold;
+}
+
+/* Cambiar el color del contenido de "Email" y "Teléfono" en contacto */
+.contact-info li {
+   color: #D5D8DC; /* Gris claro para el contenido de contacto */
+}
+
+/* Estilo de la sección de habilidades */
+.skills li {
+    color: #D5D8DC; /* Gris claro para las habilidades */
+}
+
+/* Estilo del título "Habilidades" */
+.left-panel h2:nth-of-type(2) {
+    color: white; /* Gris azulado para el título 'Habilidades' */
+}
+
+/* Estilo general para listas */
+.left-panel ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-panel ul li {
+    margin-bottom: 10px;
+}
+
+/* Enlaces dentro de la lista de contacto */
+.left-panel a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+/* Panel derecho (contenido principal) */
+
+.right-panel {
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color:  #FAF3E0; /* Color de fondo discreto */
+    border-left: 1px solid #D5DBDB; /* Borde sutil para separar ambos paneles */
+}
+
+
+.right-panel h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.divider {
+    border-top: 2px solid #BDC3C7;
+    margin: 10px 0;
+}
+
+.right-panel h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #2C3E50;
+    font-size: 25px;
+}
+
+.right-panel p {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.right-panel a {
+    color: #3498DB;
+    text-decoration: none;
+}
+
+/* Estilo general para todos los enlaces */
+a {
+    color: #1ABC9C; /* Color predeterminado del enlace */
+    text-decoration: none; /* Sin subrayado por defecto */
+    transition: color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+/* Efecto hover para todos los enlaces */
+a:hover {
+    color: #E67E22; /* Cambia el color al pasar el ratón */
+    text-decoration: underline; /* Añadir subrayado al hacer hover */
+    /*
+    color: #16A085; 
+    text-decoration: underline; 
+    */
+}
+
+.pquiensoy{
+ text-align: justify;
+ 
+}
+
+.enlace a:hover {
+    color: #E67E22; /* Cambia el color al pasar el ratón */
+    text-decoration: underline; /* Añadir subrayado al hacer hover */
+}
+
+.iconos{
+    display: block;
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Asegura que no haya relleno */
+    display: flex;
+}
+
+.iconos .icon-image{
+    width: 32px; /* Ajusta este valor para que sea más pequeño */
+    height: auto; 
+    align-items: left;/* Mantiene la proporción de la imagen */
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-panel, .right-panel {
+        width: 100%;
+    }
+}
