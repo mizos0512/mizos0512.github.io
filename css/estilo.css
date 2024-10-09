@@ -160,6 +160,20 @@ a:hover {
     background-repeat: no-repeat; /* No repetir la imagen */
 }
 
+.iconos{
+    display: block;
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Asegura que no haya relleno */
+    display: flex;
+}
+
+.iconos .icon-image{
+    width: 32px; /* Ajusta este valor para que sea más pequeño */
+    height: auto; 
+    align-items: left;/* Mantiene la proporción de la imagen */
+    padding: 10px;
+}
+
 
 
 /* Media Queries para hacer el diseño responsivo */
