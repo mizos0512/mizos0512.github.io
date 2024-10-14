@@ -1,7 +1,7 @@
 <h1 align="center">Hola, soy Reinaldo Díaz Mizos</h1>
 <h3 align="center">Me gusta mucho la DATA SCIENCE</h3>
 
-- 👨‍💻 Todos mis proyectos están en: [github.com/mizos0512](github.com/mizos0512)
+- 👨‍💻 Todos mis proyectos están en: github.com/mizos0512
 
 - 💬 **Python, HTML, CSS, JavaScript, SQL**
 
