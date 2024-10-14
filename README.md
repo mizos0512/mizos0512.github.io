@@ -1,4 +1,4 @@
-<h1 align="center">Hola, soy Reinaldo Díaz Mizos</h1>
+<h1 align="center">Hola, me llamo Reinaldo Díaz Mizos</h1>
 <h3 align="center">Me gusta mucho la DATA SCIENCE</h3>
 
 - 👨‍💻 Todos mis proyectos están en: [https://github.com/mizos0512](https://github.com/mizos0512)
