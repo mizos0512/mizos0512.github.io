@@ -183,7 +183,12 @@ a:hover {
     text-decoration: underline; /* Añadir subrayado al hacer hover */
 }
 
-
+.qr img{
+     width: 70%; 
+     height: auto; 
+     border-radius: 0;
+     padding-top: 15px;
+    }
 
 @media screen and (max-width: 768px) {
     .container {
