@@ -1,4 +1,5 @@
 /* Fondo de la página */
+
 body {
     margin: 0;
     padding: 0;
@@ -6,14 +7,16 @@ body {
     background-image: url('../img/fondo.png'); /* Cambia esta ruta por la imagen que elijas */
     background-size: cover;
     background-position: center;
-    overflow-x: hidden; /* Previene el scroll horizontal en toda la página */
+    overflow-y: scroll; /* Permitir desplazamiento vertical en toda la página */
+    /*height: 100vh; *//* Asegurarse de que el cuerpo ocupe toda la altura */
 }
 
 /* Contenedor principal que divide las columnas */
 .container {
     display: flex;
-    height: 100vh;
-    flex-direction: row; /* Inicialmente en filas para pantallas grandes */
+    flex-direction: row;
+    /*height: 100%;*/ /* Utilizar toda la altura disponible del cuerpo */
+    overflow-y: auto; /* Permitir desplazamiento vertical en el contenedor */
 }
 
 /* Columna izquierda */
@@ -49,7 +52,7 @@ body {
 }
 
 .description p {
-    font-size: 25px;
+    font-size: 20px;
     margin: 5px 0;
 }
 
@@ -78,6 +81,11 @@ body {
     font-size: 18px;
 }*/
 
+/*.left-column, .right-column { */
+    /*flex: 1; */
+    /*flex: 0 0 20%;*/
+   /* overflow-y: auto; *//* Permitir desplazamiento vertical en las columnas */ 
+/*}*/
 
 ul {
     list-style-type: none; /* Quitar los puntos de la lista */
@@ -113,13 +121,20 @@ a:hover {
     padding: 0 20px 0 20px; 
 }
 
+.amarillo1 {
+    color: #f1f5a5;
+    font-size: 20px;
+    padding: 0 20px 0 20px; 
+   
+}
+
 .skills-container {
     margin-top: auto;
     display: flex;
     flex-direction: columns;
     align-items: center;
     max-width: 100%;
-    overflow: hodden;
+    overflow: hidden;
 
     background-color: #444; /* Fondo del recuadro */
     border: 2px solid #fff; /* Borde blanco */
@@ -131,6 +146,11 @@ a:hover {
     align-items: center; /* Centrar horizontalmente */
     max-width: 100%; /* Asegurar que el contenedor no exceda el 100% del ancho */
     overflow: hidden; /* Evitar cualquier desbordamiento */
+    flex-wrap: wrap; /* Permitir que los iconos se ajusten en una sola fila */
+    justify-content: center;
+}
+    
+   
     
 }
 
@@ -173,6 +193,24 @@ a:hover {
     align-items: left;/* Mantiene la proporción de la imagen */
     padding: 10px;
 }
+
+.enlace {
+    padding: 0 20px 0 20px;
+    font-size: 8px;
+    /*color: #E67E22;
+    text-decoration: underline; /* Añadir subrayado al hacer hover */
+}
+
+.enlace a:hover {
+    color: #E67E22; /* Cambia el color al pasar el ratón */
+    text-decoration: none; /* Añadir subrayado al hacer hover */
+}
+
+.certif{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 
 
 

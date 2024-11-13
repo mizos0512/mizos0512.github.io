@@ -152,17 +152,6 @@ a:hover {
  
 }
 
-.enlace {
-    font-size: 8px;
-    /*color: #E67E22;
-    text-decoration: underline; /* Añadir subrayado al hacer hover */
-}
-
-.enlace a:hover {
-    color: #E67E22; /* Cambia el color al pasar el ratón */
-    text-decoration: underline; /* Añadir subrayado al hacer hover */
-}
-
 .iconos{
     display: block;
     margin: 0; /* Elimina el margen */

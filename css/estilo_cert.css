@@ -1,0 +1,58 @@
+/* archivo: css/estilos.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table.certificaciones {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+table.certificaciones th, table.certificaciones td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table.certificaciones th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+table.certificaciones { 
+  border-collapse: collapse; /* Asegura que no haya espacio adicional entre celdas */ 
+}
+
+table.certificaciones td { 
+  padding: 5px; /* Ajusta este valor según sea necesario */ 
+}
+
+table.certificaciones td:first-child { 
+  width: 60%; /* Ajustar este porcentaje según necesites */ 
+}
+
+table.certificaciones td:last-child { 
+  width: 25%; /* Ajustar este porcentaje según necesites */ 
+}
+
+table.certificaciones td img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0;
+}
