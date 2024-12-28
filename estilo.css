@@ -202,3 +202,13 @@ hr{
   font-size: 15px;
   color: #535553;
 }
+
+.qr{
+  text-align: center;
+}
+
+.qr img{
+  display: inline-block;
+  width: 50%;
+  padding-top: 50px;
+}
