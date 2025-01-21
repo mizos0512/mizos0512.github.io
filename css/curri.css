@@ -58,6 +58,16 @@ body {
    
   }
 
+  .qr{
+    text-align: center;
+  }
+  
+  .qr img{
+    display: inline-block;
+    width: 50%;
+    /*padding-top: 15px;*/
+  }
+
 
 /* Reglas específicas para la lista de contacto */
 /*
