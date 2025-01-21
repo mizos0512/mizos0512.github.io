@@ -36,35 +36,77 @@ body {
     margin-bottom: 20px;
 }
 
+.contact-info {
+    /*display: flex;*/
+    /*padding: 0 20px;*/
+    /*flex-wrap: wrap;*/
+    color: #333333;
+    /*align-items: center;*/  /* Asegurar que los elementos estén alineados verticalmente */
+    gap: 30px; /* Espacio entre elementos */
+    /*margin-top: 10px 0 5px 0;*/
+   
+  }
+
+  .contacto {
+    /*display: flex;*/
+    padding: 0;
+    flex-wrap: wrap;
+    color: #f5f3f3;
+    align-items: center;  /* Asegurar que los elementos estén alineados verticalmente */
+    gap: 30px; /* Espacio entre elementos */
+    /*margin-top: 10px 0 5px 0;*/
+   
+  }
+
+
 /* Reglas específicas para la lista de contacto */
+/*
 .contact-info li:first-child::before {  
     content: "Email: ";
-    color: #85C1E9; /* Azul suave para el texto 'Email' */
+    color: #85C1E9; #Azul suave para el texto 'Email' 
     font-weight: bold;
 }
 
 .contact-info li:nth-child(2)::before {
     content: "Teléfono:";
-    color: #85C1E9; /* Azul suave para el texto 'Teléfono' */
+    color: #85C1E9; # Azul suave para el texto 'Teléfono' 
     font-weight: bold;
 }
 
 .contact-info li:nth-child(3)::before {
     content: "";
-    color: #85C1E9; /* Azul suave para el texto 'Portafolio' */
+    color: #85C1E9; # Azul suave para el texto 'Portafolio' 
     font-weight: bold;
 }
 
 .contact-info li:nth-child(4)::before {
     content: "";
-    color: #85C1E9; /* Azul suave para el texto 'LinkedIn' */
+    color: #85C1E9; # Azul suave para el texto 'LinkedIn' 
     font-weight: bold;
 }
 
-/* Cambiar el color del contenido de "Email" y "Teléfono" en contacto */
+# Cambiar el color del contenido de "Email" y "Teléfono" en contacto 
 .contact-info li {
-   color: #D5D8DC; /* Gris claro para el contenido de contacto */
+   color: #D5D8DC; # Gris claro para el contenido de contacto 
 }
+
+*/
+
+.lugar{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    /*padding: 5px;*/
+    padding: 0;
+    color: #031274;
+    font-size: 15px;
+    margin:0 0 8px 0;
+  }
+
+  .cargo{
+    /*padding: 5px 0;*/
+    color: #3e3b3b;;
+    font-size: 18px;
+    margin:10px 0 0 0;
+  }
 
 /* Estilo de la sección de habilidades */
 .skills li {
