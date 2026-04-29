@@ -26,7 +26,7 @@ body {
     text-align: left;
 }
 
-.left-panel img {
+.foto {
     display: block;
     margin: 0 auto;
     width: 150px;
@@ -36,15 +36,23 @@ body {
     margin-bottom: 20px;
 }
 
-.contact-info {
-    /*display: flex;*/
-    /*padding: 0 20px;*/
-    /*flex-wrap: wrap;*/
-    color: #333333;
-    /*align-items: center;*/  /* Asegurar que los elementos estén alineados verticalmente */
-    gap: 30px; /* Espacio entre elementos */
-    /*margin-top: 10px 0 5px 0;*/
+.skill-inf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.skill-inf img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
    
+}
+
+.contact-info {
+    color: #333333;
+    gap: 30px; /* Espacio entre elementos */
   }
 
   .contacto {
@@ -59,48 +67,16 @@ body {
   }
 
   .qr{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
+ 
   .qr img{
-    display: inline-block;
-    width: 50%;
-    /*padding-top: 15px;*/
+    width: 100%;
+    object-fit: cover;
   }
-
-
-/* Reglas específicas para la lista de contacto */
-/*
-.contact-info li:first-child::before {  
-    content: "Email: ";
-    color: #85C1E9; #Azul suave para el texto 'Email' 
-    font-weight: bold;
-}
-
-.contact-info li:nth-child(2)::before {
-    content: "Teléfono:";
-    color: #85C1E9; # Azul suave para el texto 'Teléfono' 
-    font-weight: bold;
-}
-
-.contact-info li:nth-child(3)::before {
-    content: "";
-    color: #85C1E9; # Azul suave para el texto 'Portafolio' 
-    font-weight: bold;
-}
-
-.contact-info li:nth-child(4)::before {
-    content: "";
-    color: #85C1E9; # Azul suave para el texto 'LinkedIn' 
-    font-weight: bold;
-}
-
-# Cambiar el color del contenido de "Email" y "Teléfono" en contacto 
-.contact-info li {
-   color: #D5D8DC; # Gris claro para el contenido de contacto 
-}
-
-*/
 
 .lugar{
     font-family: 'Arial Narrow', Arial, sans-serif;
@@ -224,8 +200,12 @@ a:hover {
     text-decoration: underline; /* Añadir subrayado al hacer hover */
 }
 
+.salto-de-pagina{
+    page-break-before: always;
+}
+
 .qr img{
-     width: 70%; 
+     width: 60%; 
      height: auto; 
      border-radius: 0;
      padding-top: 15px;
